@@ -23,7 +23,7 @@
  
 ### Summary
 #### Anvantages
-###### An advantage to refactoring is ending with a more efficient code, which is more dynamic and executes faster. Another major benefit to refactoring is to the developer, as she/he develops new ways of writing code therefore inproving her/his skills and way of thinking. His/her new way of thinking and skills will make future code better.
+###### An advantage to refactoring is ending with a more efficient code, which is more dynamic and executes faster. Another major benefit to refactoring is to the developer, as she/he develops new skills that will improve future code.
 
 #### Disadvantages
 ###### A disadvantage to refactoring code is the risk of breaking the code - one small change can create a chain of bugs that can be time consuming and difficult to solve. Additionally, the developer can have a difficult time understading the code being refactored, which would make the process very frustrating and somewhat impossible.
