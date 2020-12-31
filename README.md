@@ -20,15 +20,14 @@
 ![](https://github.com/gabrielavalos/stock-analysis/blob/main/Resources/2018.png)
 ![](https://github.com/gabrielavalos/stock-analysis/blob/main/Resources/VBA_Challenge_2018.png)
 
-###### In the refactored code we created the tickerIndex variable, which enable us to loop through the whole data set just once for ALL tickers, instead of doing once for EACH ticker. Once the tickerIndex was no longer the same as the value in Cells(i,1), it added 1 to the tickerIndex and compiled all the necessary data for the new ticker until the value in Cells(i,1) did not match the tickerIndex value anymore and so on. Previously, we were going through the whole data set compile all the data for the ticker we were on, then once it had gone through the whole data set, the ticker to check for was change. I believe that the second option can be applied for very disorganized data, where the data for the tickerIndex you are on not stored consecutively. However, data should be clean and somewhat organized before analysing it.
  
 ### Summary
 #### Anvantages
-###### An advantage to refactoring is ending with a more efficient code. A more efficient code can be more dynamic and can execute at a faster speed.   Disadvantage to refactoring code is the actual process, as a small change can create a chain of bugs that can be time consuming to solve; however, this is a trade-off of creating code that executes faster.  A major benefit to refactoring is in the way the developer thinks about the implementation of code, as the developer is improving the code she/him is also exercising the mind; therefore, thinking of new ways to program which can be implemented in future code. retest lots of functionality 
-refactoring does not open opportunities to add new functionality into an application. Refactoring is working pieces by pieces, sometimes skipping what is before to figure out why is is currently not working. 
+###### An advantage to refactoring is ending with a more efficient code. A more efficient code can be more dynamic and can execute at a faster speed. A major benefit to refactoring is in the way the developer thinks about the implementation of code, as the developer is improving the code she/him is also exercising the mind; therefore, thinking of new ways to program which can be implemented in future code. 
 
 #### Disadvantages
-###### Risky
+###### A disadvantage to refactoring code is the risk in the process, a small change can create a chain of bugs that can be time consuming to solve; however, this is a trade-off of creating code that executes faster. refactoring does not open opportunities to add new functionality into an application
 
 #### Application
 ###### How do these pros and cons apply to refactoring the original VBA script?
+###### Our refactored code included a dynamic variable (tickerIndex), which enable VBA to loop through the whole data set just once for ALL tickers, instead of looping through all the data for EACH ticker. Once the tickerIndex is longer the same as the value in Cells(i,1), it adds 1 to the tickerIndex and compiles all the necessary data for the new ticker until the value in Cells(i,1) does again not match the current tickerIndex value, add 1 and proceeds with the next ticker. Looping through the data set just once and creating a more versatile variable (tickerIndex) significatly increased  execution speed. 
